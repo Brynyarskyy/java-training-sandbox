@@ -7,27 +7,27 @@ import static org.junit.Assert.assertTrue;
 /**
  * Unit test for simple App.
  */
-public class AppTest {
+public class OddTest {
     /**
      * Rigorous Test :-)
      */
     @Test
     public void test1() {
-        assertTrue(App.isOdd(1));
+        assertTrue(Odd.isOdd(1));
     }
 
     @Test
     public void test2() {
-        assertTrue(!App.isOdd(2));
+        assertTrue(!Odd.isOdd(2));
     }
 
     @Test
     public void test3() {
-        assertTrue(App.isOdd(3));
+        assertTrue(Odd.isOdd(3));
     }
 
     @Test
     public void test4() {
-        assertTrue(!App.isOdd(4));
+        assertTrue(!Odd.isOdd(4));
     }
 }

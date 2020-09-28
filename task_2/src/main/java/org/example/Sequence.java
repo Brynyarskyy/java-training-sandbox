@@ -1,12 +1,11 @@
 package org.example;
 
-
-public class App {
+public class Sequence {
     public static void main(String[] args) {
-        isOdd(0);
+
     }
 
-    public static boolean isOdd(int i) {
+    public static boolean isValid(int[] sequence) {
         return false;
     }
 }
