@@ -29,3 +29,9 @@ Method returns fibonachi value of input param.
 Implement method convert() in LatinNumbers class
 
 Method returns arabic number representation of latin number 
+
+## Bigger Lower
+Implement methods isBigger() and isLower() in BiggerLower class
+
+isBigger method should return true if first input is bigger than second input
+isLower method should return true if first input is lower than second input
