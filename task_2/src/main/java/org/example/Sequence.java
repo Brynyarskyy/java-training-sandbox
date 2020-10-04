@@ -6,6 +6,10 @@ public class Sequence {
     }
 
     public static boolean isValid(int[] sequence) {
-        return false;
+        for (int i = 0; i < sequence.length-1; i++)
+            if (sequence[i] > sequence[i + 1]) {
+                return false;
+            }
+        return true;
     }
 }
