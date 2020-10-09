@@ -16,6 +16,6 @@ public class BiggerLower {
      * Method make decision if i is lower that j
      */
     public static boolean isLower(int a, int b) {
-        return !isBigger(a,b);
+        return isBigger(a,b);
     }
 }
