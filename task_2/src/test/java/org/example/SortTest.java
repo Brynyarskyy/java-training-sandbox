@@ -17,7 +17,7 @@ public class SortTest {
 
     @Test
     public void test3() {
-        assertArrayEquals(new int[] {1, 2, 3, 5}, Sort.sort(new int[] {1, 2, 3, 5}));
+        assertArrayEquals(new int[] {1, 2, 3, 5}, Sort.sort(new int[] {1, 3, 2, 5}));
     }
 
     @Test
